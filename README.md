@@ -62,6 +62,7 @@ Corresponding output:
 
 
 Source of output:
+
 ```xml
 <table border="1">
    <tr>
