@@ -26,12 +26,9 @@
             <xsl:sequence select="."/>
             <!-- Only process the parent if this node is the first child -->
             <xsl:if test="not(preceding-sibling::*)">
-              <xsl:apply-templates mode="get-children" select=".."/>
+              <xsl:apply-templates mode="get-children" select="parent::*"/>
             </xsl:if>
           </xsl:template>
-
-          <!-- Stop at, and exclude, the document element -->
-          <xsl:template mode="get-children" match="/*"/>
 
 
   <xsl:template mode="td" match="*">

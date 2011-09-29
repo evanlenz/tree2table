@@ -5,7 +5,7 @@ to the right.
 Example input:
 
 ```xml
-<root>
+<root val="root">
   <a val="123">
     <b val="xyz">
       <c val="456"/>
@@ -32,6 +32,7 @@ Corresponding output:
 
 <table border="1">
    <tr>
+      <td rowspan="7">root</td>
       <td rowspan="4">123</td>
       <td rowspan="2">xyz</td>
       <td rowspan="1">456</td>
@@ -66,6 +67,7 @@ Source of output:
 ```xml
 <table border="1">
    <tr>
+      <td rowspan="7">root</td>
       <td rowspan="4">123</td>
       <td rowspan="2">xyz</td>
       <td rowspan="1">456</td>
