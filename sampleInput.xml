@@ -1,0 +1,21 @@
+<root>
+  <a val="123">
+    <b val="xyz">
+      <c val="456"/>
+      <c val="789"/>
+    </b>
+    <b val="abc">
+      <c val="def">
+        <d val="mno"/>
+        <d val="pqr"/>
+      </c>
+    </b>
+  </a>
+  <a val="321">
+    <b val="654">
+      <c val="987"/>
+      <c val="ghi"/>
+      <c val="jkl"/>
+    </b>
+  </a>
+</root>
